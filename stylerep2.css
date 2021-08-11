@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+.form {
+     width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 1% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 10%;
+   background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(149, 240, 235) 0%, rgb(240, 245, 166) 68%, rgb(255, 243, 172) 100%);
+}
+body {
+   background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(149, 240, 235) 20%, rgb(254, 255, 196) 68%, rgb(248, 235, 158) 100%);
+background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-size: 100%;
+    font-family: Brush Script MT;
+/*   the main font */
+    font-family: Brush Script MT;
+opacity: .95;
+/* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+}
+
+
+h1.login-title {
+    margin: 0px auto 25px;
+    font-weight: 300;
+    text-align: center;
+ font-size: 360%;
+    font-family: Brush Script MT;
+    color: #3e403f;
+}
+.login-input {
+     background: #fff;
+    color: #333;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+.login-input:focus {
+      transform: translateX(-2px);
+    border-radius: 5px;
+}
+.login-button {
+    display: inline-block;
+    color: #252537;
+  
+    width: 280px;
+    height: 50px;
+  
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 250%;
+    
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
